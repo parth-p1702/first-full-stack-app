@@ -1,0 +1,54 @@
+:root {
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+
+.notes {
+  padding: 10px 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.note {
+  padding: 10px;
+  width: fit-content;
+  border: 2px solid crimson;
+  text-align: center;
+}
+
+.note p{
+  font-size: 1rem;
+}
+
+.note button{
+  margin-left: 5px;
+}
+
+.create-form{
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.create-form input{
+  padding: 5px;
+}
+
+.create-form button{
+  padding: 2px 5px;
+}
+
